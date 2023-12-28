@@ -1,0 +1,2 @@
+package_name_version=$1
+pip install $package_name_version --index-url "https://nexus.ae-rus.net/repository/ali-ds-snapshot/simple/" --extra-index-url "https://nexus.ae-rus.net/repository/ali-ds/simple/" --extra-index-url "https://nexus.ae-rus.net/repository/pypi-proxy/simple/" --trusted-host "nexus.ae-rus.net"
